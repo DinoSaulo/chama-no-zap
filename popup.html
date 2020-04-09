@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="form-style-5" style="width: 800px;">
+        <form>
+            <fieldset>
+                <legend>Chama no Zap</legend>
+                <label for="pais">País:</label>
+                <select id="pais">
+                    <optgroup label="América do Sul">
+                        <option value="55">Brasil</option>
+                    </optgroup>
+                    <optgroup label="América do Norte">
+                        <option value="1">United States</option>
+                    </optgroup>
+                </select>
+                <label for="numero">DDD + Numero:</label>
+                <input type="text" id="numero" placeholder="(11)4002-8922">
+                <textarea id="mensagem" placeholder="Digite uma mensagem" style="resize: none;"></textarea>
+            </fieldset>
+            <input type="button" id="enviar" value="Enviar Zap" />
+        </form>
+    </div>
+    <script src="js/popup.js"></script>
+</body>
+
+</html>

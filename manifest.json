@@ -1,0 +1,37 @@
+{
+  "name": "Chama no Zap",
+  "version": "0.5",
+  "description": "Envie mensagens de forma rapida pelao WhatsApp!",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "activeTab",
+    "declarativeContent",
+    "storage",
+    "notifications",
+    "alarms"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/chama_no_zap16.png",
+      "32": "images/chama_no_zap32.png",
+      "48": "images/chama_no_zap48.png",
+      "128": "images/chama_no_zap128.png"
+    }
+  },
+  "icons": {
+    "16": "images/chama_no_zap16.png",
+    "32": "images/chama_no_zap32.png",
+    "48": "images/chama_no_zap48.png",
+    "128": "images/chama_no_zap128.png"
+  },
+  "options_page": "options.html",
+  "manifest_version": 2
+}
